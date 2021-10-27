@@ -22,7 +22,7 @@
 <li>git</li>
 <li>Visual Studio</li>
 </ul> </p> 
-  <br>  
+  <br> 
 
 <img src="https://i.ibb.co/DYFfWCz/Screenshot-2021-10-27-162449.jpg"> 
 <img src="https://i.ibb.co/DCXsjbb/Screenshot-2021-10-27-162624.jpg"> 
