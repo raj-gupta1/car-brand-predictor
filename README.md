@@ -1,6 +1,18 @@
  <h1>Car-brand-predictor</h1>
  <h3> © Raj Gupta 2021</h3>
-
+ 
+  <h2>Paper Referenced from:</h2>
+ <h3> Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun
+Microsoft Research
+{kahe, v-xiangz, v-shren, jiansun}@microsoft.com</h3>
+  
+  <h1> Architecture used</h1>
+ <p title=Architecture used>  
+<ul>
+<li>ResNet50</li>
+<li> No. of classes: 3</li>
+  <br> 
+  
  <h1> Libraries used</h1>
  <p title=Libraries used>  
 <ul>
