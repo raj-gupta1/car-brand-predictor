@@ -22,7 +22,7 @@ app = Flask(__name__)
 # Model saved with Keras model.save()
 MODEL_PATH ='model_resnet50.h5'
 
-# Load your trained model
+# Loading the trained model
 model = load_model(MODEL_PATH)
 
 
@@ -33,9 +33,9 @@ def model_predict(img_path, model):
 
     # Preprocessing the image
     x = image.img_to_array(img)
-    # x = np.true_divide(x, 255)
+
     ## Scaling
-    x=x/255
+    x = x/255
     x = np.expand_dims(x, axis=0)
    
 
@@ -44,11 +44,11 @@ def model_predict(img_path, model):
     preds = model.predict(x)
     preds=np.argmax(preds, axis=1)
     if preds==0:
-        preds="The Car IS Audi"
+        preds="The Car brand is Audi"
     elif preds==1:
-        preds="The Car is Lamborghini"
+        preds="The Car brand is Lamborghini"
     else:
-        preds="The Car Is Mercedes"
+        preds="The Car brand is Mercedes"
     
     
     return preds
