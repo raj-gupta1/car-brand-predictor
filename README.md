@@ -1,18 +1,29 @@
  <h1>Car-brand-predictor</h1>
  <h3> © Raj Gupta 2021</h3>
- 
+   <br> 
   <h2>Paper Referenced from:</h2>
  <h3> Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun
 Microsoft Research
 {kahe, v-xiangz, v-shren, jiansun}@microsoft.com</h3>
-  
+    <br> 
+    
   <h1> Architecture used</h1>
  <p title=Architecture used>  
 <ul>
 <li>ResNet50</li>
 <li> No. of classes: 3</li>
-  <br> 
+ </p>  
+ <br> 
+ 
+ <h2>Warning</h2> 
+<p title=Warning>  
+<ul>
+<li>Add more data to your train dataset for better accuracy.</li>
+<li> I didn't add much because of github limits to storage.</li>
+ </p> 
+ <br> 
   
+   <br> 
  <h1> Libraries used</h1>
  <p title=Libraries used>  
 <ul>
