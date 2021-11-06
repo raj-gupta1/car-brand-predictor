@@ -27,14 +27,8 @@ Microsoft Research
  <h1> Libraries used</h1>
  <p title=Libraries used>  
 <ul>
-<li>python==3.7</li>
-<li>Numpy</li>
-<li>pandas</li>
-<li>OpenCV</li>
- <li>keras</li>
-<li>tensorflow</li> 
-<li>Pillow2</li>  
-<li>flask</li>
+<li>Numpy , pandas , keras  </li>
+<li>tensorflow , Pillow2 , flask </li> 
 </ul> </p> 
   <br>  
  
@@ -53,8 +47,6 @@ Microsoft Research
 </ul>
 </p>
 <br>  
-<br>  
-<br>  
-<br>  
+
 
 
