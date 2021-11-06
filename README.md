@@ -4,7 +4,7 @@
   <h2>Paper Referenced from:</h2>
  <h3> Kaiming He Xiangyu Zhang Shaoqing Ren Jian Sun
 Microsoft Research
-{kahe, v-xiangz, v-shren, jiansun}@microsoft.com</h3>
+{kahe, v-xiangz, v-shren, jiansun}@microsoft.com https://arxiv.org/pdf/1512.03385</h3>
     <br> 
     
   <h1> Architecture used</h1>
@@ -12,21 +12,22 @@ Microsoft Research
 <ul>
 <li>ResNet50</li>
 <li> No. of classes: 3</li>
- </p>  
+ </ul></p>  
  <br> 
  
- <h2>Warning</h2> 
-<p title=Warning>  
+ <h2>Deployment</h2> 
+<p title=Deployment>  
 <ul>
-<li>Add more data to your train dataset for better accuracy.</li>
-<li> I didn't add much because of github limits to storage.</li>
- </p> 
+<li>Add more data to your train dataset for better accuracy.I didn't add much because of github limits to storage.</li>
+<li>Deployed it as a web app using Flask.</li>
+  </ul></p> 
  <br> 
   
    <br> 
  <h1> Libraries used</h1>
  <p title=Libraries used>  
 <ul>
+<li>python==3.7</li>
 <li>Numpy</li>
 <li>pandas</li>
 <li>OpenCV</li>
